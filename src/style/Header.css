@@ -1,0 +1,162 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: rgb(220, 238, 247);
+  height: 13.4vh;
+ 
+}
+
+.nav1 {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 6.5vh;
+  padding: 0 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav2{
+  height: 6.5vh;
+  background-color: #ffffff;
+  padding: 0 3vw;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10.5rem;
+  
+}
+
+.nav2-btn {
+  font-size: 0.90rem;
+  font-family: 'Helvetica';
+  font-weight: 330;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4.6rem;
+}
+
+.nav2-btn:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.overlay-container {
+  position: fixed;
+  top: 13.4vh;
+  left: 11vw;
+  right: 11vw;
+  /* left: 25vw;
+  right: 25vw; */
+  width: 78vw;
+  background-color: #ffffff;
+  height: 37vh;
+  display: flex;
+  align-items: flex-start; /* Align items to the top of the container */
+  z-index: 1000; /* Ensure the overlay is on top of other content */
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px; /* Gap between columns */ 
+  border-top: 1px solid #e7e7e7; 
+
+  border-left: 2px solid #3d6ae9; 
+  font-size: 0.9rem;
+  font-weight: 340;
+  padding: 5.5vh 0;
+}
+
+
+
+
+.down-arrow {
+  
+}
+ 
+  .content-left {
+    font-size: 1.28rem;
+    font-weight: 340;
+    line-height: 25px;
+    padding: 0 40px;
+    height: 37vh;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.content-mid {
+  height: 37vh;
+  
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: flex-start;
+  margin-right: 1px solid #6a4646 !important;
+  padding: 0 35px;
+ 
+
+  
+  /* ÷grid-template-columns: 1fr 1fr 1fr 1fr; Three equal-width columns */
+  gap: 4px; /* Gap between columns */ 
+
+}  
+
+.content-mid--title {
+  font-weight: bold !important;
+  margin-bottom: 5px;
+}
+
+.content-right {
+  height: 37vh;
+  padding: 0 35px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-left: 1px solid #DBDBDB;
+}
+
+.logo {
+  height: 4vh;
+  width: 4vw;
+  display: flex;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  /* Styles for mobile devices */
+  #mobile-hamburger {
+    display: block !important;
+  }
+
+  .nav2-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    background-color: #ffffff;
+    
+    }
+
+    .nav2 {
+      display: none ;
+      
+    }
+}
+
+
+#mobile-hamburger {
+  display: none ;
+
+}
