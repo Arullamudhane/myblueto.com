@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/myblueto.com/static/css/main.15b9dbf1.css",
+    "main.js": "/myblueto.com/static/js/main.b907d2fe.js",
+    "static/js/787.b99f4b7e.chunk.js": "/myblueto.com/static/js/787.b99f4b7e.chunk.js",
+    "static/media/logo.svg": "/myblueto.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/myblueto.com/index.html",
+    "main.15b9dbf1.css.map": "/myblueto.com/static/css/main.15b9dbf1.css.map",
+    "main.b907d2fe.js.map": "/myblueto.com/static/js/main.b907d2fe.js.map",
+    "787.b99f4b7e.chunk.js.map": "/myblueto.com/static/js/787.b99f4b7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15b9dbf1.css",
+    "static/js/main.b907d2fe.js"
+  ]
+}
